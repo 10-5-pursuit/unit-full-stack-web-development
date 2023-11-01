@@ -305,10 +305,11 @@ PostgreSQL is strict. It will not accept `maybe`, it will reject the POST reques
 ```js
 // validations/checkColors/js
 const checkBoolean = (req, res, next) => {
-  if (req.body.is_favorite) {
-    next();
+  const fav = req.body.is_favorite
+  if(typeof fav === 'boolean'){
+    next()
   } else {
-    res.status(400).json({ error: "is_favorite must be a boolean value" });
+    res.status(400).json({ error: "is_favorite must be type boolean"})
   }
 };
 
