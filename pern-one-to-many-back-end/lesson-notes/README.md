@@ -67,7 +67,6 @@ Insert some reviews. Note, since we are dropping the bookmarks table when we ins
 
 > **Note**: This code is already included if you have cloned down the starter code. You only need to run the command.
 
-Copy and paste these:
 
 ```SQL
 -- db/seed.sql
