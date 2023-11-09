@@ -104,21 +104,6 @@ Let's create the RESTful routes for reviews and test them.
 |  4  | Update  | /reviews/:id |    PUT    | **U**pdate |             Update a review              |
 |  5  | Destroy | /reviews/:id |  DELETE   | **D**elete |             Delete a review              |
 
-#### Continue with your app
-
-> **Note**: This is already included if you have cloned down the starter code.
-
-- `touch controllers/reviewsController.js` and copy the code from the [following code](https://raw.githubusercontent.com/pursuit-curriculum-resources/express-sql-seed-read-demo/starter-one-to-many/controllers/reviewsController.js).
-- `touch queries/reviews.js` and copy the code from the [following code](https://raw.githubusercontent.com/pursuit-curriculum-resources/express-sql-seed-read-demo/starter-one-to-many/queries/reviews.js).
-
-Don't forget to add this to your `app.js`.
-
-```js
-// app.js
-// Reviews ROUTES
-const reviewsController = require("./controllers/reviewsController.js");
-app.use("/reviews", reviewsController);
-```
 
 ### Test All Your routes
 
