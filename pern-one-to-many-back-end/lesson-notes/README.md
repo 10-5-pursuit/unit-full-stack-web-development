@@ -14,11 +14,8 @@ We added foreign keys (the primary key `id` of the `one` to the `many`).
 
 ### Getting started
 
-#### Option 1: Continue with your previous build
 
-- `cd` into your bookmarks app that you've been building
-
-#### Option 2: Clone down some starter code
+#### Clone down some starter code
 
 - `git clone https://github.com/pursuit-curriculum-resources/express-sql-seed-read-demo.git`
 - `cd express-sql-seed-read-demo`
