@@ -127,7 +127,6 @@ Here is a sample object:
 - Update that review.
 - Delete that review.
 
-Be sure to git, add, and commit if you continue from your code.
 
 We now have two models with full CRUD. But how do we connect them?
 
