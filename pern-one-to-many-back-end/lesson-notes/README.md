@@ -19,7 +19,7 @@ We added foreign keys (the primary key `id` of the `one` to the `many`).
 
 - `git clone https://github.com/pursuit-curriculum-resources/express-sql-seed-read-demo.git`
 - `cd express-sql-seed-read-demo`
-- `git merge starter-one-to-many`
+- `git merge origin/starter-one-to-many`
 - `:qa!`
 - `npm install`
 - Update the `.env` to work on your machine
